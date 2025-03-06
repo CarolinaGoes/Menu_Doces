@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardápio de doces</title>
+    <style>
+      body {
+        display: flex;
+        background-image: url(/bck1.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        align-items: center;
+        max-height: 1000dvh;
+        min-height: 94dvh;
+        font-family: sans-serif;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      h1, h2, p {
+        text-align: center;
+      }
+      .menu {
+        width: 80%;
+        background-color: rgb(245, 225, 237);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        max-width: 500px;
+        border: 2px solid rgb(204, 192, 255);
+      }
+      img {
+        width: 70px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      hr {
+        height: 2px;
+        background-color: rgb(204, 192, 255);
+        border-color: rgb(204, 192, 255);
+      }
+      .LinhaDoFundo {
+        margin-top: 25px;
+      }
+      h1, h2 {
+        font-family: Impact, serif;
+      }
+      .item p {
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+      }
+      .sabor, .sorvetes {
+        text-align: left;
+        width: 75%;
+      }
+      .preco {
+        text-align: right;
+        width: 25%;
+      }
+      footer {
+        font-size: 14px;
+      }
+      .Copyright {
+        margin-bottom: 5px;
+      }
+      a {
+        color: black;
+      }
+      a:visited {
+        color: black;
+      }
+      a:hover {
+        color: brown;
+      }
+      a:active {
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <h1>CARDÁPIO DOCE</h1>
+        <hr>
+        <section>
+          <h2>Bolos</h2>
+          <img src="/icone_bolo.png" alt="icone bolo"/>
+          <article class="item">
+            <p class="sabor">Bolo de Baunilha</p><p class="preco">R$3.00</p>
+          </article>
+          <article class="item">
+            <p class="sabor">Bolo de Chocolate</p><p class="preco">R$3.75</p>
+          </article>
+          <article class="item">
+            <p class="sabor">Bolo de Morango</p><p class="preco">R$3.50</p>
+          </article>
+          <article class="item">
+            <p class="sabor">Bolo Formigueiro</p><p class="preco">R$4.00</p>
+          </article>
+          <article class="item">
+            <p class="sabor">Bolo Floresta Negra</p><p class="preco">R$4.50</p>
+          </article>
+        </section>
+        <section>
+          <h2>Sorvetes</h2>
+          <img src="/icone_sorvete.png" alt="icone sorvete"/>
+          <article class="item">
+            <p class="sorvetes">Sorvete de Creme</p><p class="preco">R$1.50</p>
+          </article>
+          <article class="item">
+            <p class="sorvetes">Sorvete de Chocolate</p><p class="preco">R$2.75</p>
+          </article>
+          <article class="item">
+            <p class="sorvetes">Sorvete de Morango</p><p class="preco">R$3.00</p>
+          </article>
+          <article class="item">
+            <p class="sorvetes">Sorvete Napolitano</p><p class="preco">R$2.50</p>
+          </article>
+        </section>
+      </main>
+      <hr class="LinhaDoFundo">
+      <footer>
+        <p>
+          <a href="" target="_blank">Visit our website</a>
+        </p>
+        <p class="Copyright">© Copyright 2024 Carolina Goes. Todos os direitos reservados.</p>
+      </footer>
+    </div>
+  </body>
+</html>
